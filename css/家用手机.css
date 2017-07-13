@@ -1,0 +1,171 @@
+/*家电手机*/
+.home{
+	margin:22px auto;
+	width: 1190px;
+	overflow: hidden;
+}
+.home .tp{
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*左半部分*/
+.home .left{
+	height: 460px;
+	width: 590px;
+	float:left;
+}
+.home .left .top{
+	width: 590px;
+	height: 58px;
+	overflow: hidden;
+	background-color: #78538e;
+}
+.home .left .top h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.home .left .top img{
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+	float:left;
+}
+.home .left .top .pt{
+	width: 420px;
+	height: 30px;
+	margin-top: 19px;
+	overflow: hidden;
+}
+.home .left .top .pt a{
+	display: block;
+	float:left;
+	width: 52px;
+	height: 30px;
+	padding:0 10px;
+	color:#fff;
+	margin-left: 10px;
+	font-size: 13px;
+	text-align: center;
+	border:1px solid #78538e;
+	background-color: #9379a5;
+}
+.home .left .top .pt a:hover{
+	border:1px solid #fff;
+}
+/*图片区域*/
+.home .left .pic{
+	overflow: hidden;
+}
+.home .left .pic .pt{
+	width: 376px;
+	height: 260px;
+}
+.home .left .pic .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.bi{
+	position: absolute;
+	color:#974676;
+	top:25px;
+	left:25px;
+	font-size: 14px;
+	z-index: 1;
+}
+.pr{
+	position: absolute;
+	left:25px;
+	top:50px;
+	font-size: 12px;
+	color:#666;
+	z-index: 1;
+}
+.home .left .pic .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.home .left .pic .more{
+	margin-top: 10px;
+}
+/*右半部分*/
+.home .right{
+	height: 460px;
+	width: 590px;
+	float:right;
+}
+/*头部*/
+.home .right .top{
+	width: 590px;
+	height: 58px;
+	overflow: hidden;
+	background-color: #5e6c90;
+}
+.home .right .top h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.home .right .top img{
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.home .right .top .pt{
+	width: 420px;
+	height: 30px;
+	margin-top: 19px;
+	overflow: hidden;
+}
+.home .right .top .pt a{
+	display: block;
+	float:right;
+	width: 52px;
+	height: 30px;
+	padding:0 10px;
+	color:#fff;
+	margin-left: 10px;
+	font-size: 13px;
+	text-align: center;
+	border:1px solid #5e6c90;
+	background-color: #7f8ca8;
+}
+.home .right .top .pt a:hover{
+	border:1px solid #fff;
+}
+/*图片区域*/
+.home .right .pic{
+	overflow: hidden;
+}
+.home .right .pic .pt{
+	width: 376px;
+	height: 260px;
+}
+.home .right .pic .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.home .right .pic .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.home .right .pic .more{
+	margin-top: 10px;
+}

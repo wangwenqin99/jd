@@ -1,0 +1,69 @@
+/*悬浮搜索框*/
+#search-for{
+	height: 52px;
+	width: 1190px;
+	margin:0 auto;
+	top: 0;
+	left:50%;
+	background-color: #fff;
+	z-index: 100;
+	margin-left: -595px;
+	position: fixed;
+	border-bottom: 2px solid #D70B1C;
+	display: none;
+}
+#search-for img{
+	margin-top: 4px;
+}
+#search-for input{
+	width: 495px;
+	height: 38px;
+	margin-top: 7px;
+	margin-left: 100px;
+	outline: none;
+	border:0;
+	padding-left: 5px;
+	background-color: #EFEFEF;
+}
+#search-for div{
+	width: 50px;
+	/*height: 35px;*/
+	margin-top: 7px;
+	background-color: #f10215;
+}
+/*左导购栏*/
+#lift{
+	position: fixed;
+	width: 34px;
+	left:50%;
+	margin-left: -635px;
+	top:50px;
+	display: none;
+}
+.change-color{
+	background-color: #D70B1C !important;
+}
+.normal-color{
+	background-color: #918888 !important;	
+}
+#lift ul{
+	overflow: hidden;
+}
+#lift ul li{
+	width: 24px;
+	/*height: 28px;*/
+	background-color: #918888;
+	padding:10px 5px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+	color:#fefefe;
+	border-bottom: 1px solid #999;
+	cursor:pointer;
+}
+#lift ul li:hover{
+	background-color: #D70B1C;
+}
+.lift-last{
+	background-color: #5E4A4A;
+}

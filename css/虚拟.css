@@ -1,0 +1,270 @@
+/*虚拟*/
+.virtual{
+	margin:22px auto;
+	width: 1190px;
+	overflow: hidden;
+}
+.virtual .left{
+	width: 390px;
+	height: 523px;
+}
+.virtual .left .top{
+	height: 58px;
+	width: 390px;
+	overflow: hidden;
+	background-color: #6467a0;
+}
+.virtual .left .top h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.virtual .left .top img{
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.virtual .left .top .pt {
+	width: 205px;
+	height: 28px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.virtual .left .top .pt a{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	padding:0 10px;
+	margin-right: 10px;
+	font-size: 13px;
+	color:#fff;
+	background-color: #6467a0;
+	border: 1px solid #7c80af;
+}
+.virtual .left .top .pt a:hover{
+		border: 1px solid #fff;
+}
+.virtual .left .pic{
+	overflow: hidden;
+}
+.virtual .left .pt{
+	width: 188px;
+	height: 260px;
+}
+.virtual .left .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.virtual .left .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.virtual .left .more{
+	width: 579px;
+	height: 130px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.virtual .left .more a{
+	display: block;
+	float: left;
+}
+.virtual .center{
+	width: 390px;
+	height: 523px;
+	margin-left: 10px;
+}
+.virtual .center .top{
+	height: 58px;
+	width: 390px;
+	overflow: hidden;
+	background-color: #5981a3;
+}
+.virtual .center .top h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.virtual .center .top img{
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.virtual .center .top .pt {
+	width: 205px;
+	height: 28px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.virtual .center .top .pt a{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	padding:0 10px;
+	margin-right: 10px;
+	font-size: 13px;
+	color:#fff;
+	background-color: #5981a3;
+	border: 1px solid #6c90ab;
+}
+.virtual .center .top .pt a:hover{
+	border: 1px solid #fff;
+}
+.virtual .center .pic{
+	overflow: hidden;
+}
+.virtual .center .pt{
+	width: 188px;
+	height: 260px;
+}
+.virtual .center .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.virtual .center .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.virtual .center .more{
+	width: 579px;
+	height: 130px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.virtual .center .more a{
+	display: block;
+	float: left;
+}
+.virtual .right{
+	width: 390px;
+	height: 523px;
+	margin-left: 10px;
+}
+.virtual .right .top{
+	height: 58px;
+	width: 390px;
+	overflow: hidden;
+	background-color: #5a7259;
+}
+.virtual .right .top h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.virtual .right .top img{
+	margin-top: 19px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.virtual .right .top .pt {
+	width: 205px;
+	height: 28px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.virtual .right .top .pt a{
+	display: block;
+	float: left;
+	width: 41px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	padding:0 10px;
+	margin-right: 5px;
+	font-size: 13px;
+	color:#fff;
+	background-color: #5a7259;
+	border: 1px solid #758975;
+}
+.virtual .right .top .pt a:hover{
+	border: 1px solid #fff;
+}
+.virtual .right .pic{
+	overflow: hidden;
+}
+.virtual .right .pt{
+	width: 188px;
+	height: 260px;
+}
+.virtual .right .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.virtual .right .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.virtual .right .more{
+	width: 579px;
+	height: 130px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.virtual .right .more a{
+	display: block;
+	float: left;
+}
+/*左边滚轮*/
+.lift_list{
+	position: fixed;
+	left:50%;
+	margin-left: -640px;
+	top:100px;
+	background-color: #918888;
+}
+.lift_list li{
+	width: 34px;
+	text-align: center;
+	border-bottom: 1px solid #b1aaaa;
+}
+.lift_list li.current{
+	background-color: #c81623;
+}
+.lift_list li.top{
+	background-color: #5e4a4a;
+}
+.lift_list li a{
+	display: block;
+	padding:10px 5px;
+	width: 24px;
+	color:#fefefe;
+	font-size: 12px;
+	line-height: 14px;
+	text-decoration: none;
+}
+.lift_list li a:hover{
+	background-color: #c81623;
+}

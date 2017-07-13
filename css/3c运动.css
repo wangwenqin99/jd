@@ -1,0 +1,109 @@
+/*3c运动*/
+.sport{
+	margin:22px auto;
+	width: 1190px;
+	overflow: hidden;
+}
+.sport .tp{
+	width: 1190px;
+	height: 58px;
+	overflow: hidden;
+	background-color: #3aaba9;
+}
+.sport .tp h3{
+	color:#fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.sport .tp img{
+	width: 20px;
+	height: 20px;
+	margin-top: 19px;
+}
+.sport .tp .pt{
+	margin-top: 15px;
+	height: 28px;
+} 
+.sport .tp .pt a{
+	float:left;
+	display: block;
+	background-color: #6da6be;
+	height: 24px;
+	line-height: 24px;
+	padding:0 10px;
+	color:#fff;
+	margin-left: 10px;
+	font-size: 13px;
+	text-align: center;
+	border:1px solid #65bbb9;
+}
+.sport .tp .pt a:hover{
+	border:1px solid #fff;
+}
+.sport .left{
+	width: 570px;
+	height: 400px;
+}
+.sport .left .pic{
+	overflow: hidden;
+}
+.sport .left .pt{
+	width: 376px;
+	height: 260px;
+}
+.sport .left .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.sport .left .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.sport .left .more{
+	width: 579px;
+	height: 130px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.sport .left .more a{
+	display: block;
+	float: left;
+}
+.sport .right{
+	width: 585px;
+	height: 400px;
+	margin-left: 20px;
+}
+.sport .right .pt{
+	width: 376px;
+	height: 260px;
+}
+.sport .right .pt a{
+	float: left;
+	display: block;
+	width: 188px;
+	height: 130px;
+	position: relative;
+}
+.sport .right .pt a img{
+	position: absolute;
+	bottom:10px;
+	right:5px;
+	background-color: #f7f7f7;
+}
+.sport .right .more{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.sport .right .more a{
+	display: block;
+	float: left;
+}

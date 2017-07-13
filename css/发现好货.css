@@ -1,0 +1,387 @@
+/*发现好货优品专辑排行榜*/
+#fwt{
+	margin-top: 20px;
+}
+#fwt .w{
+	overflow: hidden;
+}
+/*发现好货*/
+#fwt .w .find-good{
+	width: 390px;
+	height: 445px;
+}
+/*发现好货头部*/
+#fwt .w .find-good .fg-box{
+	padding:0 20px 0 30px;
+	height: 55px;
+	background-color: #4998a1;;
+	position: relative;
+}
+#fwt .w .find-good .fg-box i.sm-ic{
+	width: 28px;
+	height: 28px;
+	background-image: url("../images/QQ图片20170423001019.png");
+	position: absolute;
+	top:0;
+	left:-1px;
+	background-color: #fff;
+}
+#fwt .w .find-good .fg-box h3{
+	width: 104px;
+	height: 40px;
+	padding-top: 9px;
+	font-size: 26px;
+	font-weight: 400;
+	color:#fff;
+}
+#fwt .w .find-good .fg-box .fr{
+	width: 104px;
+	height: 24px;
+	padding-top: 19px;
+	position: relative;
+}
+#fwt .w .find-good .fg-box .fr a{
+	color:#fff;
+	font-size: 14px;
+}
+#fwt .w .find-good .fg-box .fr i{
+	width: 15px;
+    height: 16px;
+    position: absolute;
+    top:21px;
+    right: 0px;
+    display: inline-block;
+	background-image: url("../images/sprite_index@1x (1).png");
+    background-position: -154px -40px;
+}
+/*发现好货内容*/
+#fwt .w .find-good .fg-conts{
+	width: 372px;
+	height: 369px;
+	padding:10px;
+}
+#fwt .w .find-good .fg-conts ul{
+	overflow: hidden;
+}
+#fwt .w .find-good .fg-conts ul li{
+	float:left;
+	position: relative;
+	width: 185px;
+	height: 120px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+#fwt .w .find-good .fg-conts ul li:first-child{
+	border-right: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+#fwt .w .find-good .fg-conts ul li.fg-b{
+	border-bottom: 1px solid #e7e7e7;
+}
+#fwt .w .find-good .fg-conts ul li.fg-c{
+	border-right: 1px solid #e7e7e7;
+}
+#fwt .w .find-good .fg-conts ul li p{
+	width: 80px;
+	height: 14px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	font-size: 14px;
+	color:#4998a1;
+}
+#fwt .w .find-good .fg-conts ul li img{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+
+
+
+/*优品专辑*/
+#fwt .w .well-per{
+	margin-left: 10px;
+	width: 390px;
+	height: 445px;
+}
+/*优品专辑头部*/
+#fwt .w .well-per .fg-box{
+	padding:0 20px 0 30px;
+	height: 55px;
+	background-color: #4998a1;
+	position: relative;
+}
+#fwt .w .well-per .fg-box i.sm-ic{
+	width: 28px;
+	height: 28px;
+	background-image: url("../images/QQ图片20170423001019.png");
+	position: absolute;
+	top:0;
+	left:-1px;
+	background-color: #fff;
+}
+#fwt .w .well-per .fg-box h3{
+	width: 104px;
+	height: 40px;
+	padding-top: 9px;
+	font-size: 26px;
+	font-weight: 400;
+	color:#fff;
+}
+#fwt .w .well-per .fg-box .fr{
+	width: 104px;
+	height: 24px;
+	padding-top: 19px;
+	position: relative;
+}
+#fwt .w .well-per .fg-box .fr a{
+	color:#fff;
+	font-size: 14px;
+}
+#fwt .w .well-per .fg-box .fr i{
+	width: 15px;
+    height: 16px;
+    position: absolute;
+    top:21px;
+    right: 0px;
+    display: inline-block;
+	background-image: url("../images/sprite_index@1x (1).png");
+    background-position: -154px -40px;
+}
+/*优品专辑内容*/
+#fwt .w .well-per .wp-conts{
+	 width: 390px;
+	 height: 380px;
+	 padding-top: 8px;
+	 position: relative;
+}
+#fwt .w .well-per .wp-conts i{
+	position: absolute;
+	top: 50%;
+	width: 20px;
+	height: 50px;
+	margin-top: -25px;
+	background-color: rgba(0,0,0,.1);
+	text-align: center;
+	line-height: 50px;
+	cursor:pointer;
+	z-index: 100;
+}
+#wp-ltip{
+	left: 0;
+}
+#wp-rtip{
+	right: 0;
+}
+#fwt .w .well-per .wp-conts ul{
+	position: absolute;
+	bottom:20px;
+	left: 50%;
+	overflow: hidden;
+	margin-left: -30px;
+	z-index: 100;
+}
+#fwt .w .well-per .wp-conts ul li{
+	float:left;
+	width: 10px;
+	height: 10px;
+	background-color: #bbb;
+	border-radius: 5px;
+	margin:0 5px;
+	cursor:pointer;
+	z-index: 100;
+}
+#fwt .w .well-per .wp-conts ul li:first-child{
+	background-color: red;
+}
+/*第一张图*/
+#fwt .w .well-per .wp-conts .wp-c{
+	position: absolute;
+	width: 342px;
+	height: 380px;
+	top:8px;
+	left: 23px;
+	z-index: 1;
+
+}
+#fwt .w .well-per .wp-conts .wp-c .wp-h{
+	margin-top: 10px;
+	padding-top: 10px;
+	
+}
+#fwt .w .well-per .wp-conts .wp-c .wp-f{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #e7e7e7;
+}
+
+/*第2张图*/
+#fwt .w .well-per .wp-conts .wp-d{
+	z-index: 0;
+	position: absolute;
+	width: 342px;
+	height: 380px;
+	top:8px;
+	left: 23px;
+}
+#fwt .w .well-per .wp-conts .wp-d .wp-h{
+	margin-top: 10px;
+	padding-top: 10px;
+	
+}
+#fwt .w .well-per .wp-conts .wp-d .wp-f{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #e7e7e7;
+}
+/*第三张图*/
+#fwt .w .well-per .wp-conts .wp-e{
+	z-index: 0;
+	position: absolute;
+	width: 342px;
+	height: 380px;
+	top:8px;
+	left: 23px;
+}
+#fwt .w .well-per .wp-conts .wp-e .wp-h{
+	margin-top: 10px;
+	padding-top: 10px;
+	
+}
+#fwt .w .well-per .wp-conts .wp-e .wp-f{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #e7e7e7;
+}
+/*排行榜*/
+#fwt .w .ranks{
+	width: 390px;
+	height: 445px;
+	margin-left: 10px;
+}
+#fwt .w .ranks .fg-box{
+	padding:0 20px 0 30px;
+	height: 55px;
+	background-color: #4998a1;
+	position: relative;
+}
+#fwt .w .ranks .fg-box i.sm-ic{
+	width: 28px;
+	height: 28px;
+	background-image: url("../images/QQ图片20170423001019.png");
+	position: absolute;
+	top:0;
+	left:-1px;
+	background-color: #fff;
+}
+#fwt .w .ranks .fg-box h3{
+	width: 104px;
+	height: 40px;
+	padding-top: 9px;
+	font-size: 26px;
+	font-weight: 400;
+	color:#fff;
+}
+#fwt .w .ranks .fg-box .fr{
+	width: 134px;
+	height: 24px;
+	padding-top: 19px;
+	position: relative;
+}
+#fwt .w .ranks .fg-box .fr a{
+	color:#fff;
+	font-size: 14px;
+}
+#fwt .w .ranks .fg-box .fr i{
+	width: 15px;
+    height: 16px;
+    position: absolute;
+    top:21px;
+    right: 0px;
+    display: inline-block;
+	background-image: url("../images/sprite_index@1x (1).png");
+    background-position: -154px -40px;
+}
+/*排行榜内容*/
+#fwt .w .ranks .rks-cont{
+
+}
+#fwt .w .ranks .rks-cont .rks-h{
+	width: 370px;
+	height: 18px;
+	padding:6px 0 7px 0;
+	margin:0 10px;
+	border-bottom: 1px solid #e7e7e7;
+	position: relative;
+}
+#change-p{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 58px;
+    height: 2px;
+    background: #f10214;
+}
+#fwt .w .ranks .rks-cont .rks-h a{
+	display: inline-block;
+	font-size: 14px;
+	padding:0 8px;
+	line-height: 18px;
+	border-right: 1px solid #d2d1d1;
+    text-align: center;
+}
+#fwt .w .ranks .rks-cont .rks-fir{
+	
+}
+#fwt .w .ranks .rks-cont .rks-fir ul{
+	overflow: hidden;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li{
+	float:left;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li a{
+	width: 122px;
+	height: 142px;
+	display: block;
+	padding:12px 0;
+	border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    position:relative;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li a i{
+	background-image: url("../images/sprite_index@1x.png");
+	width: 30px;
+	height: 41px;
+	background-position: -104px -40px;
+	position: absolute;
+	font-size: 22px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	color:#fff;
+	left: 11px;
+	top: 12px;
+	z-index: 1;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li a img{
+	position: absolute;
+	display: block;
+	left: 11px;
+	top: 12px;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li a p{
+	width: 100px;
+	height: 32px;
+	position: absolute;
+	left: 11px;
+	bottom:10px;
+	font-size: 12px;
+	line-height: 16px;
+	color:#666;
+	overflow: hidden;
+}
+#fwt .w .ranks .rks-cont .rks-fir ul li a p:hover{
+	color:#c81623;
+}
+
+

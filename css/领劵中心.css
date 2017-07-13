@@ -1,0 +1,131 @@
+/*领劵中心*/
+#coupon_lazy{margin-top: 20px;}
+#coupon_lazy .w{
+	overflow: hidden;
+}
+#coupon_lazy .w .ljcent{
+	width: 140px;
+	height: 165px;
+	padding:25px;
+	background-color: red;
+}
+#coupon_lazy .w .ljcent a{
+	display: block;
+}
+#coupon_lazy .w .ljcent a h3{
+	height: 36px;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 400;
+    color:#fff;
+}
+#coupon_lazy .w .ljcent a .nouse{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 55px;
+    height: 3px;
+    background-color: #fff;	
+}
+#coupon_lazy .w .ljcent a p{
+	height: 20px;
+	line-height: 20px;
+	color:#fff;
+	font-size: 12px;
+}
+#coupon_lazy .w .ljcent a div{
+	position: relative;
+    margin-top: 20px;
+    padding: 2px 35px 4px 15px;
+    height: 20px;
+    border: 2px solid #fff;
+    line-height: 20px;
+    color:#fff;
+    font-size: 12px;
+}
+#coupon_lazy .w .ljcent a div i{
+	background-image: url("../images/sprite_index@1x.png");
+	right: 15px;
+	display: block;
+    top: 5px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    background-position: -154px -40px;
+}
+#coupon_lazy .w ul{
+	overflow: hidden;
+	width: 1000px;
+	height: 195px;
+	padding:10px 0;
+}
+#coupon_lazy .w ul li{
+	width: 199px;
+	height: 195px;
+	float:left;
+	cursor: pointer;
+	border-right: 1px solid #ccc;
+	position: relative;
+}
+#coupon_lazy .w ul li img{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+#coupon_lazy .w ul li .lf-cont{
+	position: absolute;
+	width: 100px;
+	height: 180px;
+	border-top: 3px solid #e93524;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	background-color: #fff;
+}
+#coupon_lazy .w ul li .lf-cont .pb{
+	margin-top: 7px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 34px;
+    font-weight: 700;
+    color:#f10214;
+}
+#coupon_lazy .w ul li .lf-cont .pb i{
+	font-size: 12px;
+}
+#coupon_lazy .w ul li .lf-cont span.rdc{
+	display: block;
+	line-height: 18px;
+	font-size: 12px;
+    color: #e93524;
+}
+#coupon_lazy .w ul li .lf-cont span.rdg{
+	display: block;
+	line-height: 18px;
+	font-size: 12px;
+    color: #999;
+    width: 80px;
+    height: 36px;
+    padding:15px 10px;
+    background-color: #eee;
+}
+#coupon_lazy .w ul li .lf-cont p.lst{
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	color:#fff;
+	background-color: #e93524;
+	font-size: 12px;
+}
+
+#three-img{
+	margin-top: 20px;
+	background-color: #e0e0e0;
+}
+#three-img .w{
+	overflow: hidden;
+}
+#three-img .w a:hover{
+	opacity: .8;
+}
+
